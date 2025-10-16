@@ -1,0 +1,120 @@
+{
+  "vegetables": {
+    "brinjal": {
+      "hindi": "बैंगन",
+      "tamil": "கத்திரிக்காய்",
+      "malayalam": "വഴുതന",
+      "telugu": "వంకాయ",
+      "kannada": "ಬದನೆಕಾಯಿ",
+      "bengali": "বেগুন",
+      "marathi": "वांगे",
+      "gujarati": "રીંગણ",
+      "odia": "ବାଇଗଣ",
+      "punjabi": "ਬੈਂਗਣ",
+      "assamese": "বেঙেনা",
+      "urdu": "بینگن"
+    },
+    "tomato": {
+      "hindi": "टमाटर",
+      "tamil": "தக்காளி",
+      "malayalam": "തക്കാളി",
+      "telugu": "టమాటా",
+      "kannada": "ಟೊಮೇಟೊ",
+      "bengali": "টমেটো",
+      "marathi": "टोमॅटो",
+      "gujarati": "ટામેટા",
+      "odia": "ଟମାଟୋ",
+      "punjabi": "ਟਮਾਟਰ",
+      "assamese": "টমেটো",
+      "urdu": "ٹماٹر"
+    },
+    "potato": {
+      "hindi": "आलू",
+      "tamil": "உருளைக்கிழங்கு",
+      "malayalam": "ഉരുളക്കിഴങ്ങ്",
+      "telugu": "బంగాళాదుంప",
+      "kannada": "ಆಲೂಗಡ್ಡೆ",
+      "bengali": "আলু",
+      "marathi": "बटाटा",
+      "gujarati": "બટાટા",
+      "odia": "ଆଳୁ",
+      "punjabi": "ਆਲੂ",
+      "assamese": "আলু",
+      "urdu": "آلو"
+    },
+    "onion": {
+      "hindi": "प्याज",
+      "tamil": "வெங்காயம்",
+      "malayalam": "ഉള്ളി",
+      "telugu": "ఉల్లిపాయ",
+      "kannada": "ಈರುಳ್ಳಿ",
+      "bengali": "পেঁয়াজ",
+      "marathi": "कांदा",
+      "gujarati": "ડુંગળી",
+      "odia": "ପିଆଜ",
+      "punjabi": "ਪਿਆਜ਼",
+      "assamese": "পিয়াঁজ",
+      "urdu": "پیاز"
+    }
+  },
+  "fruits": {
+    "mango": {
+      "hindi": "आम",
+      "tamil": "மாம்பழம்",
+      "malayalam": "മാങ്ങ",
+      "telugu": "మామిడి",
+      "kannada": "ಮಾವಿನಹಣ್ಣು",
+      "bengali": "আম",
+      "marathi": "आंबा",
+      "gujarati": "કેરી",
+      "odia": "ଆମ୍ବ",
+      "punjabi": "ਆਮ",
+      "assamese": "আম",
+      "urdu": "آم"
+    },
+    "banana": {
+      "hindi": "केला",
+      "tamil": "வாழைப்பழம்",
+      "malayalam": "വാഴപ്പഴം",
+      "telugu": "అరటి",
+      "kannada": "ಬಾಳೆಹಣ್ಣು",
+      "bengali": "কলা",
+      "marathi": "केळ",
+      "gujarati": "કેળું",
+      "odia": "କଦଳୀ",
+      "punjabi": "ਕੇਲਾ",
+      "assamese": "কল",
+      "urdu": "کیلا"
+    }
+  },
+  "animals": {
+    "cow": {
+      "hindi": "गाय",
+      "tamil": "மாடு",
+      "malayalam": "പശു",
+      "telugu": "ఆవు",
+      "kannada": "ಹಸು",
+      "bengali": "গরু",
+      "marathi": "गाय",
+      "gujarati": "ગાય",
+      "odia": "ଗା",
+      "punjabi": "ਗਾਂ",
+      "assamese": "গৰু",
+      "urdu": "گائے"
+    },
+    "dog": {
+      "hindi": "कुत्ता",
+      "tamil": "நாய்",
+      "malayalam": "നായ",
+      "telugu": "కుక్క",
+      "kannada": "ನಾಯಿ",
+      "bengali": "কুকুর",
+      "marathi": "कुत्रा",
+      "gujarati": "કૂતરો",
+      "odia": "କୁକୁର",
+      "punjabi": "ਕੁੱਤਾ",
+      "assamese": "কুকুৰ",
+      "urdu": "کتا"
+    }
+  }
+}
