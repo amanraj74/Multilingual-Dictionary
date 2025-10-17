@@ -1,6 +1,5 @@
 """Language utilities for 22 Indic languages"""
 
-# 22 Indic languages with IndicTrans2 codes
 LANGUAGES = {
     "Hindi": "hin_Deva",
     "Bengali": "ben_Beng",
@@ -26,7 +25,6 @@ LANGUAGES = {
     "Santali": "sat_Olck"
 }
 
-# Language display names
 LANGUAGE_NAMES = {
     "Hindi": "हिन्दी",
     "Bengali": "বাংলা",
@@ -53,13 +51,10 @@ LANGUAGE_NAMES = {
 }
 
 def get_language_code(language_name):
-    """Get IndicTrans2 code for language"""
     return LANGUAGES.get(language_name, "hin_Deva")
 
 def get_all_languages():
-    """Get list of all supported languages"""
     return list(LANGUAGES.keys())
 
 def get_language_display_name(lang):
-    """Get native language name"""
     return LANGUAGE_NAMES.get(lang, lang)
