@@ -46,7 +46,7 @@
       "hindi": "प्याज",
       "tamil": "வெங்காயம்",
       "malayalam": "ഉള്ളി",
-      "telugu": "ఉల్లిపాయ",
+      "telugu": "ఉल्लిపాయ",
       "kannada": "ಈರುಳ್ಳಿ",
       "bengali": "পেঁয়াজ",
       "marathi": "कांदा",
@@ -55,6 +55,20 @@
       "punjabi": "ਪਿਆਜ਼",
       "assamese": "পিয়াঁজ",
       "urdu": "پیاز"
+    },
+    "ladyfinger": {
+      "hindi": "भिंडी",
+      "tamil": "வெண்டைக்காய்",
+      "telugu": "బెండకాయ",
+      "malayalam": "വെണ്ടക്ക",
+      "kannada": "ಬೆಂಡೆಕಾಯಿ",
+      "bengali": "ঢেঁড়স",
+      "marathi": "भेंडी",
+      "gujarati": "ભીંડા",
+      "odia": "ଭେଣ୍ଡି",
+      "punjabi": "ਭਿੰਡੀ",
+      "assamese": "ভেণ্ডি",
+      "urdu": "بھنڈی"
     }
   },
   "fruits": {
@@ -63,7 +77,7 @@
       "tamil": "மாம்பழம்",
       "malayalam": "മാങ്ങ",
       "telugu": "మామిడి",
-      "kannada": "ಮಾವಿನಹಣ್ಣು",
+      "kannada": "మಾವಿನಹಣ್ಣು",
       "bengali": "আম",
       "marathi": "आंबा",
       "gujarati": "કેરી",
