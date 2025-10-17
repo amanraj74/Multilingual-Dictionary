@@ -15,6 +15,44 @@ except ImportError as e:
     st.error(f"Import error: {e}")
     st.stop()
 
+"""
+🌍 ULTIMATE MULTILINGUAL DICTIONARY
+Streamlit Cloud Safe Version
+"""
+
+import streamlit as st
+import sqlite3
+import time
+import os
+
+# SAFE IMPORTS with fallback
+try:
+    from translator import get_translator
+except ImportError as e:
+    st.error(f"Cannot import translator: {e}")
+    st.stop()
+
+try:
+    from utils.language_utils import get_all_languages, get_language_display_name
+except ImportError:
+    st.warning("Using fallback language utils")
+    # Fallback functions
+    def get_all_languages():
+        return ["Hindi", "Bengali", "Tamil", "Telugu", "Malayalam", "Kannada",
+                "Marathi", "Gujarati", "Odia", "Punjabi", "Assamese", "Urdu",
+                "Maithili", "Sanskrit", "Konkani", "Nepali", "Sindhi", "Dogri",
+                "Manipuri", "Bodo", "Kashmiri", "Santali"]
+    
+    def get_language_display_name(lang):
+        names = {
+            "Hindi": "हिन्दी", "Bengali": "বাংলা", "Tamil": "தமிழ்",
+            "Telugu": "తెలుగు", "Malayalam": "മലയാളം", "Kannada": "ಕನ್ನಡ"
+        }
+        return names.get(lang, lang)
+
+# Rest of your app.py code continues...
+
+
 # ═══════════════════════════════════════════════════════════════════════════════
 # PAGE CONFIG
 # ═══════════════════════════════════════════════════════════════════════════════
