@@ -267,10 +267,9 @@ with tab1:
                         native = get_language_display_name(lang)
                         
                         badge_info = {
-                            "sarvam": ("🥇 Sarvam", "#10b981"),
+                            "indictrans": ("🥇 IndicTrans", "#10b981"),
                             "gemini": ("🥈 Gemini", "#3b82f6"),
                             "mymemory": ("🥉 MyMemory", "#f59e0b"),
-                            "model": ("🏅 Model", "#8b5cf6")
                         }
                         badge_text, badge_color = badge_info.get(method, ("❓", "#6b7280"))
                         
@@ -383,10 +382,9 @@ with tab2:
                     result, method = translator.translate(input_text, target_lang)
                     
                     badge = {
-                        "sarvam": "🥇 Sarvam AI",
+                        "indictrans": "🥇 IndicTrans2 API",
                         "gemini": "🥈 Gemini AI",
                         "mymemory": "🥉 MyMemory",
-                        "model": "🏅 Model"
                     }.get(method, "")
                     
                     st.markdown(f"""
